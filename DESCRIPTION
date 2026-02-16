@@ -1,8 +1,8 @@
 Package: evmissing
 Type: Package
 Title: Extreme Value Analyses with Missing Data
-Version: 1.0.1
-Date: 2026-01-28
+Version: 1.0.2
+Date: 2026-02-16
 Authors@R: c(
     person(c("Paul", "J."), "Northrop", email = "p.northrop@ucl.ac.uk",
       role = c("aut", "cre", "cph")),
@@ -11,7 +11,7 @@ Authors@R: c(
 Maintainer: Paul J. Northrop <p.northrop@ucl.ac.uk>
 Description: Performs likelihood-based extreme value inferences with 
     adjustment for the presence of missing values based on Simpson and 
-    Northrop (2026). A Generalised Extreme Value
+    Northrop (2026) <doi:10.1002/env.70075>. A Generalised Extreme Value
     distribution is fitted to block maxima using maximum likelihood estimation, 
     with the location and scale parameters reflecting the numbers of 
     non-missing raw values in each block. A Bayesian version is also provided. 
@@ -31,8 +31,8 @@ BugReports: https://github.com/paulnorthrop/evmissing/issues
 Config/testthat/edition: 3
 RoxygenNote: 7.3.3
 NeedsCompilation: no
-Packaged: 2026-01-28 11:23:54 UTC; Paul
+Packaged: 2026-02-16 10:17:59 UTC; Paul
 Author: Paul J. Northrop [aut, cre, cph],
   Emma S. Simpson [aut, cph]
 Repository: CRAN
-Date/Publication: 2026-01-28 12:30:02 UTC
+Date/Publication: 2026-02-16 10:30:02 UTC
